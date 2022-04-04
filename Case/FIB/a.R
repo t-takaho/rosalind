@@ -1,6 +1,6 @@
 # n <- 5
 # k <- 3
-inp <- as.double(read.table("~/rosalind/FIB/rosalind_fib.txt"))
+inp <- as.double(read.table("~/rosalind/Case/FIB/rosalind_fib.txt"))
 
 n <- inp[1]
 k <- inp[2]

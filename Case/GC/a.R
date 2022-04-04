@@ -1,4 +1,4 @@
-inp <- read.table("~/rosalind/GC/rosalind_gc.txt")[[1]]
+inp <- read.table("~/rosalind/Case/GC/rosalind_gc.txt")[[1]]
 
 s <- grep(">", inp)
 s2 <- append(s, length(inp) + 1)

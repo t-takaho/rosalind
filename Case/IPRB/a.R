@@ -1,5 +1,5 @@
-inp <- as.double(read.table("~/rosalind/IPRB/rosalind_iprb.txt"))
-# inp <- as.double(read.table("~/rosalind/IPRB/rosalind_iprb_sample.txt"))
+inp <- as.double(read.table("~/rosalind/Case/IPRB/rosalind_iprb.txt"))
+# inp <- as.double(read.table("~/rosalind/Case/IPRB/rosalind_iprb_sample.txt"))
 
 k <- inp[1]
 m <- inp[2]

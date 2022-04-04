@@ -1,7 +1,7 @@
-inp <- as.character(read.table("~/rosalind/PROT/rosalind_prot.txt"))
+inp <- as.character(read.table("~/rosalind/Case/PROT/rosalind_prot.txt"))
 # inp <- "AUGGCCAUGGCGCCCAGAACUGAGAUCAAUAGUACCCGUAUUAACGGGUGA"
 
-ct <- read.table("~/rosalind/PROT/codon_table.txt")
+ct <- read.table("~/rosalind/Case/PROT/codon_table.txt")
 c1 <- append(append(append(ct[, 1], ct[, 3]), ct[, 5]), ct[, 7])
 c2 <- append(append(append(ct[, 2], ct[, 4]), ct[, 6]), ct[, 8])
 c3 <- data.frame(cbind(c1, c2))

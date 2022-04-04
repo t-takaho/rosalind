@@ -1,5 +1,5 @@
-# inp <- read.table("~/rosalind/SUBS/rosalind_subs_sample.txt")
-inp <- read.table("~/rosalind/SUBS/rosalind_subs.txt")
+# inp <- read.table("~/rosalind/Case/SUBS/rosalind_subs_sample.txt")
+inp <- read.table("~/rosalind/Case/SUBS/rosalind_subs.txt")
 t_1 <- inp[1, ]
 m_1 <- inp[2, ]
 

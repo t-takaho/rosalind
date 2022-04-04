@@ -1,5 +1,5 @@
-inp <- read.table("~/rosalind/GRPH/rosalind_grph_sample.txt")[[1]]
-# inp <- unlist(read.table("~/rosalind/GRPH/rosalind_grph.txt"))[[1]]
+inp <- read.table("~/rosalind/Case/GRPH/rosalind_grph_sample.txt")[[1]]
+# inp <- unlist(read.table("~/rosalind/Case/GRPH/rosalind_grph.txt"))[[1]]
 
 s1 <- grep(">", inp)
 s2 <- append(s1, length(inp) + 1)
@@ -35,8 +35,8 @@ rownames(ans_mat) <- rn2
 print(cs2)
 print(ans_mat)
 
-system("rm ~/rosalind/CONS/rosalind_cons_ans.txt")
-write.table(cs2, "~/rosalind/CONS/rosalind_cons_ans.txt",
+system("rm ~/rosalind/Case/CONS/rosalind_cons_ans.txt")
+write.table(cs2, "~/rosalind/Case/CONS/rosalind_cons_ans.txt",
             append = TRUE, col.names = FALSE, row.names = FALSE, quote = FALSE)
-write.table(ans_mat, "~/rosalind/CONS/rosalind_cons_ans.txt",
+write.table(ans_mat, "~/rosalind/Case/CONS/rosalind_cons_ans.txt",
             append = TRUE, col.names = FALSE, quote = FALSE)

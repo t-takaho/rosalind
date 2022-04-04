@@ -1,5 +1,5 @@
 # inp <- "AAAACCCGGT"
-inp <- as.character(read.table("~/rosalind/REVC/rosalind_revc.txt"))
+inp <- as.character(read.table("~/rosalind/Case/REVC/rosalind_revc.txt"))
 inp2 <- strsplit(inp, "")[[1]]
 inp3 <- inp2
 inp3[grep("A", inp2)] <- "T"
